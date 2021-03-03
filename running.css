@@ -1,0 +1,188 @@
+*{margin:0;padding:0;}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+
+
+
+.full_wrap{
+    width:100%;
+    
+}
+
+.wrap{
+    width:960px;
+    margin:0 auto;
+    display:block;
+ 
+}
+.menu{
+    width:960px;
+    border-right:1px solid white;
+    border-left:1px solid white;
+    display:inline-block;
+}
+.menu ul{
+    list-style-type:none;
+    
+}
+.menu ul li{
+    float:left;
+}
+.menu ul li a {
+    text-decoration:none;
+    padding:10px 20px;
+    color:white;
+    text-align:center;
+    display:inline-block;
+
+} 
+.menu ul li a:hover{
+    color:gray;
+}
+.menu_bg{
+    background:black;
+    display:inline-block;
+    height:38px;
+}
+.img_bg{
+    background-image:url("images/ahsan-manzil-full-view.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:250px;
+    margin-top:-4px;
+    position:relative;
+    border-right:1px solid white;
+    border-left:1px solid white;
+    
+   
+}
+.menu2{
+    background:black;
+    margin-top:212px;
+    position:absolute;
+    width:960px;
+    border-right:1px solid white;
+   
+}
+.menu2 ul{
+    list-style-type:none;
+    float:left;
+}
+.menu2 ul li{
+    float:left;
+   
+}
+.menu2 ul li a {
+    text-decoration:none;
+    padding:10px 20px;
+    color:white;
+    text-align:center;
+    display:inline-block;
+
+} 
+.menu2 ul li a:hover{
+    color:gray;
+}
+
+.searchsubmit{
+    float:right;
+  
+    margin-right:10px;
+}
+.menu2_bg{
+   
+}
+.left_contant{
+    width:200px;
+    float:left;
+   
+    background: #8080ff;
+}
+.left_contant h3{
+    background:green;
+    padding:5px ;
+    color:white;
+}
+.left_contant ul{
+    list-style-type:none;
+    padding:8px ;
+}
+.left_contant ul li{
+    padding-left:10px;
+    padding-bottom:5px;
+}
+.left_contant ul li a{
+    text-decoration:none;
+    color: #1a1a1a;
+ 
+}
+.left_contant ul li a:hover{
+    color: #4d4d4d;
+}
+
+.middle_contant{
+    width:560px;
+    float:left;
+   background: #e6e6ff;
+   color:black;
+   padding-bottom: 27px;
+}
+.middle_contant h3{
+    color:white;
+    text-align:center;
+    background:gray;
+    padding:5px;
+    margin-top:20px;
+}
+.middle_contant p{
+    padding:5px;
+    text-align: justify;
+}
+.middle_contant blockquote {
+    padding: 25px 0px 15px 47px;
+    background: url(images/quote.png) no-repeat #ddd;
+    background-size: 41px 55px;
+    background-position: 5px 10px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    border-left: 5px solid red;
+    margin-left: 25px;
+}
+.right_contant{
+    width:200px;
+    float:right;
+    background:#8080ff;
+}
+.right_contant h3{
+    background:green;
+    padding:5px ;
+    color:white;
+}
+.right_contant ul{
+    list-style-type:none;
+    padding:5px ;
+}
+.right_contant ul li{
+    padding-left:10px;
+    padding-bottom:5px;
+}
+.right_contant ul li a{
+    text-decoration:none;
+    color: #1a1a1a;
+}
+.right_contant ul li a:hover{
+    color: #4d4d4d;
+}
+h3{
+    font-family: 'Reggae One', cursive;
+}
+.left_contant .left_menu{
+    padding-bottom:58px;
+}
+input[type="submit"]{width: 75px;
+    height: 30px;
+    color: #fff;
+    background: #008000;margin-left:5px;margin-top:5px;cursor:pointer}
